@@ -60,3 +60,4 @@ p users["Erik"][:home_town]
 p users["Erik"][:lottery_numbers.to_s]
 p users["Avril"][:pets][0][:species]
 p users['Erik'][:lottery_numbers.min]
+users["Erik"][:home_town] ="Edinburgh"
